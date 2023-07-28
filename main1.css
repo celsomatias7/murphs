@@ -7,12 +7,12 @@
 header,
 section h2,
 section h3,
-form button {
+form button { /* colocando a fonte estilizada vinda do google fonts */
     font-family: 'Bungee', cursive;
     font-weight: normal
 }
 
-body, input, textarea {
+body, input, textarea { /* fonte do google fonts */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -79,7 +79,7 @@ section p {
     margin-right: 32px;
 }
 
-.social-links img {
+.social-links img { /* tamanho das imagens dos links da rede social */
     height: 24px;
 }
 
@@ -88,7 +88,7 @@ section p {
     margin-right: 8px;
 }
 
-.social-links li a {
+.social-links li a { /* tirando o sublinhado do link */
     text-decoration: none;
 }
 
@@ -110,32 +110,32 @@ form button {
     padding: 8px;
 }
 
-form textarea {
+form textarea { /* bloqueando a liberdade para o usuário aumentar o tamanho e definindo o tamanho padrão */
     resize: none;
     height: 180px;
 }
 
-section h3 {
+section h3 { /* colocando margem no título da sessão */
     margin-bottom: 16px;
 }
 
-form button {
+form button { /* estilizando o botão com cor de fundo, cor do texto, tirando a borda e mudando o cursor para pointer*/
     background-color: #182c61;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
 }
 
-form button:hover {
+form button:hover { /* mudar a cor do botão quando passar o mouse encima */
     background-color: #345bc7;
 }
 
-input:focus, textarea:focus {
+input:focus, textarea:focus { /*borda da caixa de texto e dos campos */
     outline-color: #182c61;
 }
 
 footer {
-    background-color: #182c61;
+    background-color: #182c61; /*estilizando o rodapé com cor de fundo, cor da fonte e espaçamento*/
     color: #ecf0f1;
     padding: 16px 0;
 }
