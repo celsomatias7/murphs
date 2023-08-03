@@ -7,12 +7,24 @@
 header,
 section h2,
 section h3,
-form button { /* colocando a fonte estilizada vinda do google fonts */
+section h4
+{ /* colocando a fonte estilizada vinda do google fonts */
     font-family: 'Bungee', cursive;
     font-weight: normal
 }
 
-body, input, textarea { /* fonte do google fonts */
+.articles-menu article {
+    width: 30%;
+}
+
+.articles-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: inline-flex;
+    }
+
+body { /* fonte do google fonts */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -39,8 +51,7 @@ header nav li a {
     margin: 0 auto;
 }
 
-header .container,
-section .container {
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -81,7 +92,7 @@ section p {
 }
 
 .social-links img { /* tamanho das imagens dos links da rede social */
-    height: 24px;
+    height: 32px;
 }
 
 .social-links li {
@@ -91,48 +102,17 @@ section p {
 
 .social-links li a { /* tirando o sublinhado do link */
     text-decoration: none;
+    
 }
 
-#contact .container {
-    display: block;
+#menu img {
+    width:180px;
+    margin-right: 8px;
 }
 
-.contact-methods {
-    display: flex;
-    justify-content: space-between;
-}
-
-form input,
-form textarea,
-form button {
-    display: block;
-    width: 320px;
-    margin-bottom: 8px;
-    padding: 8px;
-}
-
-form textarea { /* bloqueando a liberdade para o usuário aumentar o tamanho e definindo o tamanho padrão */
-    resize: none;
-    height: 180px;
-}
 
 section h3 { /* colocando margem no título da sessão */
     margin-bottom: 16px;
-}
-
-form button { /* estilizando o botão com cor de fundo, cor do texto, tirando a borda e mudando o cursor para pointer*/
-    background-color: #182c61;
-    color: #ecf0f1;
-    border: none;
-    cursor: pointer;
-}
-
-form button:hover { /* mudar a cor do botão quando passar o mouse encima */
-    background-color: #345bc7;
-}
-
-input:focus, textarea:focus { /*borda da caixa de texto e dos campos */
-    outline-color: #182c61;
 }
 
 footer {
